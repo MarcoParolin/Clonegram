@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.8.1)
+  - R.swift (5.0.2):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.0)
+  - Reveal-SDK (20)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - SnapKit (4.2.0)
+  - SwiftLint (0.30.1)
+  - SwiftVideoBackground (3.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - R.swift
+  - Reveal-SDK
+  - SDWebImage
+  - SnapKit
+  - SwiftLint
+  - SwiftVideoBackground
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - R.swift
+    - R.swift.Library
+    - Reveal-SDK
+    - SDWebImage
+    - SnapKit
+    - SwiftLint
+    - SwiftVideoBackground
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  R.swift: 81455d81467763cbd3f4d79d938d05f4ac4c0228
+  R.swift.Library: 0bf390e729bc10bb2c9e4fb78bd043164a7be4ff
+  Reveal-SDK: 43206a57f575632fd304e85385cc259b5d359e32
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+  SwiftVideoBackground: 28c37a2cb1bb6162ef179cfd9bb2b08de967b632
+
+PODFILE CHECKSUM: 7ad6059513c25f9567e7ad098729db6c16cea6f0
+
+COCOAPODS: 1.6.0

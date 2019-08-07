@@ -1,0 +1,10 @@
+Clonegram/R.h
+Clonegram/R.m
+*.xcuserstate
+Clonegram.xcodeproj/xcuserdata/*
+Clonegram.xcworkspace/xcuserdata/*
+Pods/Pods.xcodeproj/xcuserdata/*
+Clonegram/Services/.DS_Store
+.DS_Store
+Pods
+R.generated.swift

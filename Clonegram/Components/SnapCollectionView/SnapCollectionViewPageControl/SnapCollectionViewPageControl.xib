@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SnapCollectionViewPageControl" customModule="Clonegram" customModuleProvider="target">
+            <connections>
+                <outlet property="scrollView" destination="HYL-lx-uSd" id="EZz-r6-m8F"/>
+                <outlet property="shouldCenterDots" destination="pB7-Oc-L3I" id="fcC-Wf-8Hw"/>
+                <outlet property="stackView" destination="ZdM-gj-jI5" id="VB3-8c-JqN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYL-lx-uSd">
+                    <rect key="frame" x="0.0" y="0.0" width="155" height="68"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="ZdM-gj-jI5">
+                            <rect key="frame" x="0.0" y="0.0" width="155" height="68"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ZdM-gj-jI5" firstAttribute="height" secondItem="HYL-lx-uSd" secondAttribute="height" id="3a1-kV-6Vo"/>
+                        <constraint firstAttribute="bottom" secondItem="ZdM-gj-jI5" secondAttribute="bottom" id="Z5h-01-W8R"/>
+                        <constraint firstItem="ZdM-gj-jI5" firstAttribute="width" secondItem="HYL-lx-uSd" secondAttribute="width" priority="750" id="eUd-l0-anr"/>
+                        <constraint firstAttribute="trailing" secondItem="ZdM-gj-jI5" secondAttribute="trailing" priority="750" id="f7U-vs-HXL"/>
+                        <constraint firstItem="ZdM-gj-jI5" firstAttribute="top" secondItem="HYL-lx-uSd" secondAttribute="top" id="jUH-DA-u3C"/>
+                        <constraint firstItem="ZdM-gj-jI5" firstAttribute="leading" secondItem="HYL-lx-uSd" secondAttribute="leading" priority="750" id="jfT-rB-Xqv"/>
+                        <constraint firstItem="ZdM-gj-jI5" firstAttribute="centerX" secondItem="HYL-lx-uSd" secondAttribute="centerX" id="pB7-Oc-L3I"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HYL-lx-uSd" secondAttribute="bottom" id="WKt-Rt-aB0"/>
+                <constraint firstAttribute="trailing" secondItem="HYL-lx-uSd" secondAttribute="trailing" id="Wdf-XD-Ocx"/>
+                <constraint firstItem="HYL-lx-uSd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sPT-YY-DGX"/>
+                <constraint firstItem="HYL-lx-uSd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sdm-s0-HSi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-50.000000000000007" y="-155.35714285714286"/>
+        </view>
+    </objects>
+</document>
